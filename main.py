@@ -7,6 +7,10 @@ import asyncio
 from telegram import Bot
 from telegram.error import NetworkError
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 TOKEN = os.getenv('TOKEN')
 
